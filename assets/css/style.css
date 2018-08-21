@@ -1,27 +1,16 @@
 body{
     background-image: linear-gradient(to right, black, #0000FF);
-    display: flex;
-    justify-content: center;
-    align-content: center;
+}
+.blockForm{
+    background-color: white;
+    color:black;
+    height: 250px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px #F2F2F2;
+    padding-top:40px;
+    color:black;
+    margin-top: 20%;
     text-align: center;
-    color: black;
-    padding-top: 200px;
-}
-form{
-    background-color:white;
-    height:100px;
-    width:400px;
-    padding-top:50px;
-    padding-bottom:50px;
-    border-radius:50px;
-    box-shadow:3px 3px 10px #F2F2F2;
-}
-p{
-    background-color:white;
-    height:100px;
-    width:400px;
-    padding-top:50px;
-    padding-bottom:50px;
-    border-radius:50px;
-    box-shadow:3px 3px 10px #F2F2F2;
+    word-wrap: break-word;
 }
